@@ -37,6 +37,7 @@ data class QiblaUiState(
     val distanceKm: Double? = null,
     val compassAzimuth: Float = 0f,
     val compassAccuracy: Int = 0,
+    val magneticInterference: Boolean = false,
     val hasCompassSensors: Boolean = true,
     val governorates: List<String> = emptyList(),
     val selectedGovernorate: String? = null,
@@ -144,7 +145,11 @@ class QiblaViewModel(application: Application) : AndroidViewModel(application) {
         viewModelScope.launch {
             sensorManager.compassFlow().collect { reading ->
                 _uiState.update {
-                    it.copy(compassAzimuth = reading.azimuthDegrees, compassAccuracy = reading.accuracy)
+                    it.copy(
+                        compassAzimuth = reading.azimuthDegrees,
+                        compassAccuracy = reading.accuracy,
+                        magneticInterference = reading.magneticInterference
+                    )
                 }
             }
         }
