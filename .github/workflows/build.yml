@@ -25,8 +25,19 @@ jobs:
       - name: كتابة local.properties
         run: echo "sdk.dir=$ANDROID_HOME" > local.properties
 
-      - name: بناء نسخة Debug APK (قابلة للتثبيت المباشر - موقّعة تلقائياً بمفتاح Debug)
-        run: gradle assembleDebug --no-daemon --stacktrace
+      - name: بناء نسخة Debug APK (مع إعادة محاولة تلقائية حتى 3 مرات)
+        run: |
+          for i in 1 2 3; do
+            echo "=== محاولة البناء رقم $i ==="
+            if gradle assembleDebug --no-daemon --stacktrace; then
+              echo "=== نجح البناء في المحاولة رقم $i ==="
+              exit 0
+            fi
+            echo "=== فشلت المحاولة رقم $i، إعادة المحاولة بعد 15 ثانية... ==="
+            sleep 15
+          done
+          echo "=== فشلت جميع المحاولات الثلاث ==="
+          exit 1
 
       - name: رفع Debug APK كمخرجات (Artifact)
         uses: actions/upload-artifact@v4
