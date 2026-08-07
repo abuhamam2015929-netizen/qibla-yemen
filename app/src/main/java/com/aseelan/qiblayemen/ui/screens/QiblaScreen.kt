@@ -147,18 +147,22 @@ private fun ReadyContent(
         Spacer(Modifier.height(6.dp))
 
         if (!state.hasCompassSensors) {
-            Text(
-                "⚠️ جهازك لا يحتوي حساس بوصلة، لن يعمل المؤشر الحي",
-                color = Color(0xFFB23A2F),
-                fontSize = 12.sp,
-                modifier = Modifier.padding(bottom = 4.dp)
+            AlertBanner(
+                icon = "⚠️",
+                message = "جهازك لا يحتوي حساس بوصلة، لن يعمل المؤشر الحي",
+                color = Color(0xFFB23A2F)
+            )
+        } else if (state.magneticInterference) {
+            AlertBanner(
+                icon = "🧲",
+                message = "تشويش مغناطيسي محتمل — ابتعد عن المعادن أو الشواحن القريبة",
+                color = Color(0xFFB23A2F)
             )
         } else if (state.compassAccuracy <= 1) {
-            Text(
-                "حرّك جهازك على شكل ٨ لمعايرة البوصلة",
-                color = DeepGreen.copy(alpha = 0.55f),
-                fontSize = 12.sp,
-                modifier = Modifier.padding(bottom = 4.dp)
+            AlertBanner(
+                icon = "🔄",
+                message = "حرّك جهازك على شكل ٨ لمعايرة البوصلة",
+                color = Color(0xFF9A7B10)
             )
         }
 
@@ -204,8 +208,36 @@ private fun ReadyContent(
         }
 
         Spacer(Modifier.height(16.dp))
-        SecondaryButton(text = "تغيير الموقع", icon = Icons.Default.EditLocation, onClick = onChangeLocation)
+        SecondaryButton(
+            text = "تغيير الموقع",
+            icon = Icons.Default.EditLocation,
+            onClick = onChangeLocation,
+            contentColor = DeepGreen
+        )
         Spacer(Modifier.height(24.dp))
+    }
+}
+
+@Composable
+private fun AlertBanner(icon: String, message: String, color: Color) {
+    Row(
+        modifier = Modifier
+            .fillMaxWidth()
+            .background(color.copy(alpha = 0.12f), RoundedCornerShape(10.dp))
+            .padding(horizontal = 12.dp, vertical = 8.dp)
+            .padding(bottom = 4.dp),
+        verticalAlignment = Alignment.CenterVertically
+    ) {
+        Text(icon, fontSize = 15.sp)
+        Spacer(Modifier.width(6.dp))
+        Text(
+            message,
+            color = color,
+            fontSize = 12.sp,
+            fontWeight = FontWeight.Medium,
+            textAlign = TextAlign.Center,
+            modifier = Modifier.weight(1f)
+        )
     }
 }
 
@@ -255,10 +287,16 @@ private fun PrimaryButton(text: String, icon: androidx.compose.ui.graphics.vecto
 }
 
 @Composable
-private fun SecondaryButton(text: String, icon: androidx.compose.ui.graphics.vector.ImageVector, onClick: () -> Unit) {
+private fun SecondaryButton(
+    text: String,
+    icon: androidx.compose.ui.graphics.vector.ImageVector,
+    onClick: () -> Unit,
+    contentColor: Color = Ivory
+) {
     OutlinedButton(
         onClick = onClick,
-        colors = ButtonDefaults.outlinedButtonColors(contentColor = Ivory),
+        colors = ButtonDefaults.outlinedButtonColors(contentColor = contentColor),
+        border = androidx.compose.foundation.BorderStroke(1.dp, contentColor.copy(alpha = 0.5f)),
         shape = RoundedCornerShape(12.dp),
         modifier = Modifier.fillMaxWidth().height(50.dp)
     ) {
