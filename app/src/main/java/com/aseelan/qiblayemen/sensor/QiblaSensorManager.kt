@@ -8,10 +8,12 @@ import android.hardware.SensorManager
 import kotlinx.coroutines.channels.awaitClose
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.callbackFlow
+import kotlin.math.sqrt
 
 data class CompassReading(
     val azimuthDegrees: Float,   // اتجاه شمال الجهاز الحقيقي (0-360)
-    val accuracy: Int            // دقة المستشعر: SensorManager.SENSOR_STATUS_*
+    val accuracy: Int,           // دقة المستشعر: SensorManager.SENSOR_STATUS_*
+    val magneticInterference: Boolean // true إذا كان المجال المغناطيسي خارج المدى الطبيعي (تشويش)
 )
 
 /**
@@ -33,6 +35,10 @@ class QiblaSensorManager(context: Context) {
 
     private var smoothedAzimuth: Float? = null
     private val filterAlpha = 0.15f // معامل الفلتر الأُسّي: كلما قلّ زادت النعومة
+
+    // المدى الطبيعي لشدة المجال المغناطيسي الأرضي بوحدة µT (خارج هذا المدى = تشويش محتمل
+    // من معدن قريب، مكبر صوت، شاحن، إلخ)
+    private val normalMagneticFieldRange = 20f..80f
 
     fun hasRequiredSensors(): Boolean = accelerometer != null && magnetometer != null
 
@@ -58,7 +64,15 @@ class QiblaSensorManager(context: Context) {
                     azimuth = (azimuth + 360) % 360
 
                     val smoothed = smoothAzimuth(azimuth)
-                    trySend(CompassReading(smoothed, event.accuracy))
+
+                    val magnitude = sqrt(
+                        geomagnetic[0] * geomagnetic[0] +
+                        geomagnetic[1] * geomagnetic[1] +
+                        geomagnetic[2] * geomagnetic[2]
+                    )
+                    val interference = magnitude !in normalMagneticFieldRange
+
+                    trySend(CompassReading(smoothed, event.accuracy, interference))
                 }
             }
 
