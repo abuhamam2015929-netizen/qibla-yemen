@@ -27,14 +27,11 @@ jobs:
         with:
           gradle-version: '8.7'
 
-      - name: إنشاء Gradle Wrapper بإصدار مضبوط
-        run: gradle wrapper --gradle-version 8.7 --distribution-type bin
-
       - name: كتابة local.properties
         run: echo "sdk.dir=$ANDROID_HOME" > local.properties
 
       - name: بناء نسخة Debug APK (قابلة للتثبيت المباشر - موقّعة تلقائياً بمفتاح Debug)
-        run: ./gradlew assembleDebug --no-daemon --stacktrace
+        run: gradle assembleDebug --no-daemon --stacktrace
 
       - name: رفع Debug APK كمخرجات (Artifact)
         uses: actions/upload-artifact@v4
