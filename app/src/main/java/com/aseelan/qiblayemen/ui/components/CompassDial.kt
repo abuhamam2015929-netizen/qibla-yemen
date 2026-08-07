@@ -28,6 +28,8 @@ import com.aseelan.qiblayemen.ui.theme.Gold
 import com.aseelan.qiblayemen.ui.theme.GoldLight
 import com.aseelan.qiblayemen.ui.theme.Ivory
 import com.aseelan.qiblayemen.ui.theme.MidGreen
+import com.aseelan.qiblayemen.ui.theme.AlignedGreen
+import kotlin.math.abs
 import kotlin.math.cos
 import kotlin.math.sin
 
@@ -43,6 +45,11 @@ fun CompassDial(
 ) {
     // زاوية دوران القرص بحيث يشير المؤشر الذهبي دوماً نحو القبلة الحقيقية
     val targetRotation = ((qiblaBearing - deviceAzimuth + 360) % 360).toFloat()
+
+    // نحدد مدى المحاذاة: الفرق بين اتجاه الجهاز واتجاه القبلة الفعلي (بمدى -180..180)
+    val rawDiff = ((qiblaBearing - deviceAzimuth + 540) % 360) - 180
+    val isAligned = abs(rawDiff) <= 4.0
+
     val animatedRotation by animateFloatAsState(
         targetValue = targetRotation,
         animationSpec = spring(dampingRatio = Spring.DampingRatioLowBouncy, stiffness = Spring.StiffnessLow),
@@ -131,7 +138,7 @@ fun CompassDial(
             }
         }
 
-        // المؤشر الذهبي: يدور مباشرة نحو اتجاه القبلة الفعلي
+        // المؤشر: يدور مباشرة نحو اتجاه القبلة الفعلي، ويتحول للأخضر عند المحاذاة الدقيقة
         Box(
             modifier = Modifier
                 .fillMaxWidth()
@@ -139,15 +146,22 @@ fun CompassDial(
                 .rotate(animatedRotation),
             contentAlignment = Alignment.TopCenter
         ) {
-            QiblaNeedle(modifier = Modifier.padding(top = 18.dp))
+            QiblaNeedle(
+                modifier = Modifier.padding(top = 18.dp),
+                isAligned = isAligned
+            )
         }
 
-        // شارة الكعبة في المنتصف
+        // شارة الكعبة في المنتصف، إطارها يتحول للأخضر أيضاً عند المحاذاة
+        val badgeBorderColor by androidx.compose.animation.animateColorAsState(
+            targetValue = if (isAligned) AlignedGreen else Ivory,
+            label = "badgeBorder"
+        )
         Box(
             modifier = Modifier
                 .size(58.dp)
                 .background(Gold, CircleShape)
-                .border(2.dp, Ivory, CircleShape),
+                .border(3.dp, badgeBorderColor, CircleShape),
             contentAlignment = Alignment.Center
         ) {
             Text("🕋", fontSize = 26.sp)
@@ -156,7 +170,11 @@ fun CompassDial(
 }
 
 @Composable
-private fun QiblaNeedle(modifier: Modifier = Modifier) {
+private fun QiblaNeedle(modifier: Modifier = Modifier, isAligned: Boolean = false) {
+    val needleColor by androidx.compose.animation.animateColorAsState(
+        targetValue = if (isAligned) AlignedGreen else Gold,
+        label = "needleColor"
+    )
     Canvas(modifier = modifier.size(width = 34.dp, height = 90.dp)) {
         val w = size.width
         val h = size.height
@@ -167,7 +185,7 @@ private fun QiblaNeedle(modifier: Modifier = Modifier) {
             lineTo(0f, h * 0.55f)
             close()
         }
-        drawPath(path, color = Gold)
+        drawPath(path, color = needleColor)
         drawPath(
             path,
             color = DeepGreen,
