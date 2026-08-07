@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.QiblaYemen" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/deep_green</item>
+        <item name="android:windowBackground">@color/ivory</item>
+    </style>
+</resources>

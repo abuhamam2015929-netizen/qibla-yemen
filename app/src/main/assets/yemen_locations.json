@@ -1,0 +1,1604 @@
+[
+  {
+    "governorate": "عدن",
+    "district": "صيرة",
+    "place": "صيرة",
+    "lat": 12.7793,
+    "lon": 45.0367,
+    "qibla_bearing": 330.78,
+    "id": 1
+  },
+  {
+    "governorate": "عدن",
+    "district": "خور مكسر",
+    "place": "خور مكسر",
+    "lat": 12.8098,
+    "lon": 45.0378,
+    "qibla_bearing": 330.69,
+    "id": 2
+  },
+  {
+    "governorate": "عدن",
+    "district": "المعلا",
+    "place": "المعلا",
+    "lat": 12.7938,
+    "lon": 45.0189,
+    "qibla_bearing": 330.82,
+    "id": 3
+  },
+  {
+    "governorate": "عدن",
+    "district": "التواهي",
+    "place": "التواهي",
+    "lat": 12.7715,
+    "lon": 44.9956,
+    "qibla_bearing": 330.99,
+    "id": 4
+  },
+  {
+    "governorate": "عدن",
+    "district": "المنصورة",
+    "place": "المنصورة",
+    "lat": 12.8518,
+    "lon": 44.9817,
+    "qibla_bearing": 330.83,
+    "id": 5
+  },
+  {
+    "governorate": "عدن",
+    "district": "الشيخ عثمان",
+    "place": "الشيخ عثمان",
+    "lat": 12.8868,
+    "lon": 45.0287,
+    "qibla_bearing": 330.51,
+    "id": 6
+  },
+  {
+    "governorate": "عدن",
+    "district": "دار سعد",
+    "place": "دار سعد",
+    "lat": 12.9099,
+    "lon": 44.9895,
+    "qibla_bearing": 330.63,
+    "id": 7
+  },
+  {
+    "governorate": "عدن",
+    "district": "البريقة",
+    "place": "البريقة",
+    "lat": 12.7987,
+    "lon": 44.8536,
+    "qibla_bearing": 331.58,
+    "id": 8
+  },
+  {
+    "governorate": "شبوة",
+    "district": "عتق",
+    "place": "عتق",
+    "lat": 14.53639,
+    "lon": 46.83306,
+    "qibla_bearing": 316.97,
+    "id": 9
+  },
+  {
+    "governorate": "شبوة",
+    "district": "نصاب",
+    "place": "نصاب",
+    "lat": 14.35,
+    "lon": 46.05,
+    "qibla_bearing": 320.97,
+    "id": 10
+  },
+  {
+    "governorate": "شبوة",
+    "district": "الصعيد",
+    "place": "الصعيد",
+    "lat": 14.2804,
+    "lon": 46.8693,
+    "qibla_bearing": 317.84,
+    "id": 11
+  },
+  {
+    "governorate": "شبوة",
+    "district": "حبان",
+    "place": "حبان",
+    "lat": 14.3667,
+    "lon": 47.1667,
+    "qibla_bearing": 316.36,
+    "id": 12
+  },
+  {
+    "governorate": "شبوة",
+    "district": "رضوم",
+    "place": "رضوم",
+    "lat": 14.1167,
+    "lon": 48.3333,
+    "qibla_bearing": 313.28,
+    "id": 13
+  },
+  {
+    "governorate": "شبوة",
+    "district": "الروضة",
+    "place": "الروضة",
+    "lat": 14.55,
+    "lon": 47.78,
+    "qibla_bearing": 313.42,
+    "id": 14
+  },
+  {
+    "governorate": "شبوة",
+    "district": "ميفعة",
+    "place": "جول الريدة",
+    "lat": 14.29347,
+    "lon": 47.5605,
+    "qibla_bearing": 315.21,
+    "id": 15
+  },
+  {
+    "governorate": "شبوة",
+    "district": "ميفعة",
+    "place": "عزان",
+    "lat": 14.32678,
+    "lon": 47.44757,
+    "qibla_bearing": 315.48,
+    "id": 16
+  },
+  {
+    "governorate": "شبوة",
+    "district": "مرخة العليا",
+    "place": "واسط",
+    "lat": 14.95,
+    "lon": 46.4,
+    "qibla_bearing": 317.0,
+    "id": 17
+  },
+  {
+    "governorate": "شبوة",
+    "district": "مرخة السفلى",
+    "place": "السعيد",
+    "lat": 14.7,
+    "lon": 46.5,
+    "qibla_bearing": 317.64,
+    "id": 18
+  },
+  {
+    "governorate": "شبوة",
+    "district": "عين",
+    "place": "الحجب",
+    "lat": 14.88,
+    "lon": 45.6,
+    "qibla_bearing": 320.88,
+    "id": 19
+  },
+  {
+    "governorate": "شبوة",
+    "district": "بيحان",
+    "place": "العليا",
+    "lat": 14.8667,
+    "lon": 45.7333,
+    "qibla_bearing": 320.31,
+    "id": 20
+  },
+  {
+    "governorate": "شبوة",
+    "district": "عسيلان",
+    "place": "عسيلان",
+    "lat": 15.03,
+    "lon": 45.83,
+    "qibla_bearing": 319.16,
+    "id": 21
+  },
+  {
+    "governorate": "شبوة",
+    "district": "الطلح",
+    "place": "الطلح",
+    "lat": 15.35,
+    "lon": 47.45,
+    "qibla_bearing": 311.16,
+    "id": 22
+  },
+  {
+    "governorate": "شبوة",
+    "district": "جردان",
+    "place": "عميق",
+    "lat": 15.0167,
+    "lon": 47.28,
+    "qibla_bearing": 313.25,
+    "id": 23
+  },
+  {
+    "governorate": "شبوة",
+    "district": "عرماء",
+    "place": "المافود",
+    "lat": 15.1833,
+    "lon": 47.6,
+    "qibla_bearing": 311.38,
+    "id": 24
+  },
+  {
+    "governorate": "شبوة",
+    "district": "دهر",
+    "place": "مطرة",
+    "lat": 15.2,
+    "lon": 47.95,
+    "qibla_bearing": 310.12,
+    "id": 25
+  },
+  {
+    "governorate": "شبوة",
+    "district": "حطيب",
+    "place": "الرباط",
+    "lat": 14.15,
+    "lon": 46.6,
+    "qibla_bearing": 319.42,
+    "id": 26
+  },
+  {
+    "governorate": "حضرموت",
+    "district": "المكلا",
+    "place": "المكلا",
+    "lat": 14.5333,
+    "lon": 49.1333,
+    "qibla_bearing": 309.25,
+    "id": 27
+  },
+  {
+    "governorate": "حضرموت",
+    "district": "مدينة المكلا",
+    "place": "مدينة المكلا",
+    "lat": 14.5417,
+    "lon": 49.1242,
+    "qibla_bearing": 309.25,
+    "id": 28
+  },
+  {
+    "governorate": "حضرموت",
+    "district": "بروم ميفع",
+    "place": "بروم ميفع",
+    "lat": 14.31,
+    "lon": 48.95,
+    "qibla_bearing": 310.65,
+    "id": 29
+  },
+  {
+    "governorate": "حضرموت",
+    "district": "الشحر",
+    "place": "الشحر",
+    "lat": 14.758,
+    "lon": 49.605,
+    "qibla_bearing": 307.08,
+    "id": 30
+  },
+  {
+    "governorate": "حضرموت",
+    "district": "غيل باوزير",
+    "place": "غيل باوزير",
+    "lat": 14.808,
+    "lon": 49.298,
+    "qibla_bearing": 307.71,
+    "id": 31
+  },
+  {
+    "governorate": "حضرموت",
+    "district": "الديس",
+    "place": "الديس",
+    "lat": 14.52,
+    "lon": 49.17,
+    "qibla_bearing": 309.2,
+    "id": 32
+  },
+  {
+    "governorate": "حضرموت",
+    "district": "الريدة وقصيعر",
+    "place": "الريدة وقصيعر",
+    "lat": 15.22,
+    "lon": 50.78,
+    "qibla_bearing": 302.45,
+    "id": 33
+  },
+  {
+    "governorate": "حضرموت",
+    "district": "حجر",
+    "place": "حجر",
+    "lat": 14.81,
+    "lon": 48.65,
+    "qibla_bearing": 309.56,
+    "id": 34
+  },
+  {
+    "governorate": "حضرموت",
+    "district": "دوعن",
+    "place": "دوعن",
+    "lat": 15.15,
+    "lon": 48.4167,
+    "qibla_bearing": 308.85,
+    "id": 35
+  },
+  {
+    "governorate": "حضرموت",
+    "district": "عمد",
+    "place": "عمد",
+    "lat": 15.36,
+    "lon": 48.2,
+    "qibla_bearing": 308.6,
+    "id": 36
+  },
+  {
+    "governorate": "حضرموت",
+    "district": "رخية",
+    "place": "رخية",
+    "lat": 15.6,
+    "lon": 48.1,
+    "qibla_bearing": 307.84,
+    "id": 37
+  },
+  {
+    "governorate": "حضرموت",
+    "district": "حريضة",
+    "place": "حريضة",
+    "lat": 15.53,
+    "lon": 48.38,
+    "qibla_bearing": 307.29,
+    "id": 38
+  },
+  {
+    "governorate": "حضرموت",
+    "district": "القطن",
+    "place": "القطن",
+    "lat": 15.7,
+    "lon": 48.2833,
+    "qibla_bearing": 306.81,
+    "id": 39
+  },
+  {
+    "governorate": "حضرموت",
+    "district": "شبام",
+    "place": "شبام",
+    "lat": 15.9333,
+    "lon": 48.6333,
+    "qibla_bearing": 304.69,
+    "id": 40
+  },
+  {
+    "governorate": "حضرموت",
+    "district": "سيئون",
+    "place": "سيئون",
+    "lat": 15.9433,
+    "lon": 48.7933,
+    "qibla_bearing": 304.2,
+    "id": 41
+  },
+  {
+    "governorate": "حضرموت",
+    "district": "تريم",
+    "place": "تريم",
+    "lat": 16.05,
+    "lon": 49.0,
+    "qibla_bearing": 303.15,
+    "id": 42
+  },
+  {
+    "governorate": "حضرموت",
+    "district": "السوم",
+    "place": "السوم",
+    "lat": 16.3,
+    "lon": 49.4,
+    "qibla_bearing": 300.97,
+    "id": 43
+  },
+  {
+    "governorate": "حضرموت",
+    "district": "ساه",
+    "place": "ساه",
+    "lat": 15.83,
+    "lon": 48.88,
+    "qibla_bearing": 304.48,
+    "id": 44
+  },
+  {
+    "governorate": "حضرموت",
+    "district": "العبر",
+    "place": "العبر",
+    "lat": 16.0833,
+    "lon": 47.7833,
+    "qibla_bearing": 306.55,
+    "id": 45
+  },
+  {
+    "governorate": "حضرموت",
+    "district": "غيل بن يمين",
+    "place": "غيل بن يمين",
+    "lat": 15.15,
+    "lon": 49.48,
+    "qibla_bearing": 305.83,
+    "id": 46
+  },
+  {
+    "governorate": "حضرموت",
+    "district": "القف",
+    "place": "القف",
+    "lat": 16.32,
+    "lon": 48.65,
+    "qibla_bearing": 302.8,
+    "id": 47
+  },
+  {
+    "governorate": "حضرموت",
+    "district": "وادي العين",
+    "place": "وادي العين",
+    "lat": 15.88,
+    "lon": 48.42,
+    "qibla_bearing": 305.56,
+    "id": 48
+  },
+  {
+    "governorate": "حضرموت",
+    "district": "الضليعة",
+    "place": "الضليعة",
+    "lat": 14.98,
+    "lon": 48.95,
+    "qibla_bearing": 307.98,
+    "id": 49
+  },
+  {
+    "governorate": "حضرموت",
+    "district": "ثمود",
+    "place": "ثمود",
+    "lat": 17.1,
+    "lon": 49.15,
+    "qibla_bearing": 297.64,
+    "id": 50
+  },
+  {
+    "governorate": "حضرموت",
+    "district": "رماة",
+    "place": "رماة",
+    "lat": 16.45,
+    "lon": 49.05,
+    "qibla_bearing": 301.12,
+    "id": 51
+  },
+  {
+    "governorate": "حضرموت",
+    "district": "زمخ ومنوخ",
+    "place": "زمخ ومنوخ",
+    "lat": 16.85,
+    "lon": 47.95,
+    "qibla_bearing": 302.07,
+    "id": 52
+  },
+  {
+    "governorate": "حضرموت",
+    "district": "حجر الصيعر",
+    "place": "حجر الصيعر",
+    "lat": 16.65,
+    "lon": 49.3,
+    "qibla_bearing": 299.54,
+    "id": 53
+  },
+  {
+    "governorate": "حضرموت",
+    "district": "يبعث",
+    "place": "يبعث",
+    "lat": 15.15,
+    "lon": 48.95,
+    "qibla_bearing": 307.27,
+    "id": 54
+  },
+  {
+    "governorate": "أبين",
+    "district": "زنجبار",
+    "place": "زنجبار",
+    "lat": 13.1283,
+    "lon": 45.3803,
+    "qibla_bearing": 328.19,
+    "id": 55
+  },
+  {
+    "governorate": "أبين",
+    "district": "زنجبار",
+    "place": "شقرة",
+    "lat": 13.3597,
+    "lon": 45.6844,
+    "qibla_bearing": 326.1,
+    "id": 56
+  },
+  {
+    "governorate": "أبين",
+    "district": "خنفر",
+    "place": "جعار",
+    "lat": 13.4288,
+    "lon": 45.7674,
+    "qibla_bearing": 325.5,
+    "id": 57
+  },
+  {
+    "governorate": "أبين",
+    "district": "خنفر",
+    "place": "الحصن",
+    "lat": 13.317,
+    "lon": 45.558,
+    "qibla_bearing": 326.8,
+    "id": 58
+  },
+  {
+    "governorate": "أبين",
+    "district": "خنفر",
+    "place": "باتيس",
+    "lat": 13.2575,
+    "lon": 45.5617,
+    "qibla_bearing": 326.97,
+    "id": 59
+  },
+  {
+    "governorate": "أبين",
+    "district": "خنفر",
+    "place": "الكود",
+    "lat": 13.215,
+    "lon": 45.306,
+    "qibla_bearing": 328.26,
+    "id": 60
+  },
+  {
+    "governorate": "أبين",
+    "district": "لودر",
+    "place": "لودر",
+    "lat": 13.9672,
+    "lon": 45.8297,
+    "qibla_bearing": 323.38,
+    "id": 61
+  },
+  {
+    "governorate": "أبين",
+    "district": "لودر",
+    "place": "العين",
+    "lat": 13.984,
+    "lon": 45.844,
+    "qibla_bearing": 323.25,
+    "id": 62
+  },
+  {
+    "governorate": "أبين",
+    "district": "مودية",
+    "place": "مودية",
+    "lat": 13.93,
+    "lon": 46.16,
+    "qibla_bearing": 322.07,
+    "id": 63
+  },
+  {
+    "governorate": "أبين",
+    "district": "جيشان",
+    "place": "جيشان",
+    "lat": 13.886,
+    "lon": 46.337,
+    "qibla_bearing": 321.48,
+    "id": 64
+  },
+  {
+    "governorate": "أبين",
+    "district": "المحفد",
+    "place": "المحفد",
+    "lat": 13.97,
+    "lon": 46.72,
+    "qibla_bearing": 319.61,
+    "id": 65
+  },
+  {
+    "governorate": "أبين",
+    "district": "الوضيع",
+    "place": "الوضيع",
+    "lat": 13.85,
+    "lon": 45.82,
+    "qibla_bearing": 323.84,
+    "id": 66
+  },
+  {
+    "governorate": "أبين",
+    "district": "أحور",
+    "place": "أحور",
+    "lat": 13.72,
+    "lon": 46.72,
+    "qibla_bearing": 320.52,
+    "id": 67
+  },
+  {
+    "governorate": "أبين",
+    "district": "رصد",
+    "place": "رصد",
+    "lat": 13.64,
+    "lon": 45.35,
+    "qibla_bearing": 326.7,
+    "id": 68
+  },
+  {
+    "governorate": "أبين",
+    "district": "سرار",
+    "place": "سرار",
+    "lat": 13.51,
+    "lon": 45.37,
+    "qibla_bearing": 327.04,
+    "id": 69
+  },
+  {
+    "governorate": "أبين",
+    "district": "سباح",
+    "place": "سوق سباح",
+    "lat": 13.79,
+    "lon": 45.5,
+    "qibla_bearing": 325.5,
+    "id": 70
+  },
+  {
+    "governorate": "لحج",
+    "district": "الحوطة",
+    "place": "الحوطة",
+    "lat": 13.0569,
+    "lon": 44.8819,
+    "qibla_bearing": 330.72,
+    "id": 71
+  },
+  {
+    "governorate": "لحج",
+    "district": "تبن",
+    "place": "صبر",
+    "lat": 13.0833,
+    "lon": 44.9167,
+    "qibla_bearing": 330.48,
+    "id": 72
+  },
+  {
+    "governorate": "لحج",
+    "district": "تبن",
+    "place": "الوهط",
+    "lat": 13.12,
+    "lon": 44.98,
+    "qibla_bearing": 330.07,
+    "id": 73
+  },
+  {
+    "governorate": "لحج",
+    "district": "طور الباحة",
+    "place": "طور الباحة",
+    "lat": 13.3333,
+    "lon": 44.3833,
+    "qibla_bearing": 332.39,
+    "id": 74
+  },
+  {
+    "governorate": "لحج",
+    "district": "المقاطرة",
+    "place": "المقاطرة",
+    "lat": 13.2667,
+    "lon": 44.3167,
+    "qibla_bearing": 332.91,
+    "id": 75
+  },
+  {
+    "governorate": "لحج",
+    "district": "المضاربة ورأس العارة",
+    "place": "رأس العارة",
+    "lat": 12.85,
+    "lon": 43.45,
+    "qibla_bearing": 338.51,
+    "id": 76
+  },
+  {
+    "governorate": "لحج",
+    "district": "القبيطة",
+    "place": "القبيطة",
+    "lat": 13.325,
+    "lon": 44.2333,
+    "qibla_bearing": 333.18,
+    "id": 77
+  },
+  {
+    "governorate": "لحج",
+    "district": "المسيمير",
+    "place": "المسيمير",
+    "lat": 13.3667,
+    "lon": 44.75,
+    "qibla_bearing": 330.45,
+    "id": 78
+  },
+  {
+    "governorate": "لحج",
+    "district": "ردفان",
+    "place": "الحبيلين",
+    "lat": 13.47,
+    "lon": 44.85,
+    "qibla_bearing": 329.64,
+    "id": 79
+  },
+  {
+    "governorate": "لحج",
+    "district": "الملاح",
+    "place": "الملاح",
+    "lat": 13.43,
+    "lon": 44.92,
+    "qibla_bearing": 329.43,
+    "id": 80
+  },
+  {
+    "governorate": "لحج",
+    "district": "حبيل جبر",
+    "place": "حبيل جبر",
+    "lat": 13.56,
+    "lon": 45.02,
+    "qibla_bearing": 328.53,
+    "id": 81
+  },
+  {
+    "governorate": "لحج",
+    "district": "حالمين",
+    "place": "حبيل الريدة",
+    "lat": 13.61,
+    "lon": 44.92,
+    "qibla_bearing": 328.86,
+    "id": 82
+  },
+  {
+    "governorate": "لحج",
+    "district": "المفلحي",
+    "place": "المفلحي",
+    "lat": 13.76,
+    "lon": 45.0,
+    "qibla_bearing": 327.98,
+    "id": 83
+  },
+  {
+    "governorate": "لحج",
+    "district": "يهر",
+    "place": "يهر",
+    "lat": 13.79,
+    "lon": 45.12,
+    "qibla_bearing": 327.3,
+    "id": 84
+  },
+  {
+    "governorate": "لحج",
+    "district": "الحد",
+    "place": "الحد",
+    "lat": 13.98,
+    "lon": 45.22,
+    "qibla_bearing": 326.16,
+    "id": 85
+  },
+  {
+    "governorate": "الضالع",
+    "district": "الضالع",
+    "place": "الضالع",
+    "lat": 13.6957,
+    "lon": 44.7314,
+    "qibla_bearing": 329.52,
+    "id": 86
+  },
+  {
+    "governorate": "الضالع",
+    "district": "قعطبة",
+    "place": "قعطبة",
+    "lat": 14.0167,
+    "lon": 44.6333,
+    "qibla_bearing": 328.97,
+    "id": 87
+  },
+  {
+    "governorate": "الضالع",
+    "district": "دمت",
+    "place": "دمت",
+    "lat": 14.0694,
+    "lon": 44.7347,
+    "qibla_bearing": 328.27,
+    "id": 88
+  },
+  {
+    "governorate": "الضالع",
+    "district": "جبن",
+    "place": "جبن",
+    "lat": 14.318,
+    "lon": 44.781,
+    "qibla_bearing": 327.15,
+    "id": 89
+  },
+  {
+    "governorate": "الضالع",
+    "district": "الشعيب",
+    "place": "العوابل",
+    "lat": 13.846,
+    "lon": 44.908,
+    "qibla_bearing": 328.15,
+    "id": 90
+  },
+  {
+    "governorate": "الضالع",
+    "district": "الحصين",
+    "place": "الحصن",
+    "lat": 13.72,
+    "lon": 44.78,
+    "qibla_bearing": 329.2,
+    "id": 91
+  },
+  {
+    "governorate": "الضالع",
+    "district": "جحاف",
+    "place": "السرير",
+    "lat": 13.62,
+    "lon": 44.66,
+    "qibla_bearing": 330.12,
+    "id": 92
+  },
+  {
+    "governorate": "الضالع",
+    "district": "الأزارق",
+    "place": "ذي جلال",
+    "lat": 13.5,
+    "lon": 44.52,
+    "qibla_bearing": 331.2,
+    "id": 93
+  },
+  {
+    "governorate": "الضالع",
+    "district": "الحشاء",
+    "place": "ضوران",
+    "lat": 13.92,
+    "lon": 44.92,
+    "qibla_bearing": 327.84,
+    "id": 94
+  },
+  {
+    "governorate": "الضالع",
+    "district": "الضالع",
+    "place": "سناح",
+    "lat": 13.7,
+    "lon": 44.74,
+    "qibla_bearing": 329.47,
+    "id": 95
+  },
+  {
+    "governorate": "الضالع",
+    "district": "قعطبة",
+    "place": "الفاخر",
+    "lat": 14.05,
+    "lon": 44.6,
+    "qibla_bearing": 329.03,
+    "id": 96
+  },
+  {
+    "governorate": "الضالع",
+    "district": "دمت",
+    "place": "مريس",
+    "lat": 14.14,
+    "lon": 44.72,
+    "qibla_bearing": 328.1,
+    "id": 97
+  },
+  {
+    "governorate": "الضالع",
+    "district": "جبن",
+    "place": "السدة",
+    "lat": 14.28,
+    "lon": 44.82,
+    "qibla_bearing": 327.09,
+    "id": 98
+  },
+  {
+    "governorate": "المهرة",
+    "district": "الغيضة",
+    "place": "الغيضة",
+    "lat": 16.2078,
+    "lon": 52.1761,
+    "qibla_bearing": 295.95,
+    "id": 99
+  },
+  {
+    "governorate": "المهرة",
+    "district": "الغيضة",
+    "place": "دمقوت",
+    "lat": 16.5667,
+    "lon": 52.95,
+    "qibla_bearing": 293.43,
+    "id": 100
+  },
+  {
+    "governorate": "المهرة",
+    "district": "المسيلة",
+    "place": "المسيلة",
+    "lat": 15.95,
+    "lon": 51.25,
+    "qibla_bearing": 298.58,
+    "id": 101
+  },
+  {
+    "governorate": "المهرة",
+    "district": "المسيلة",
+    "place": "نشطون",
+    "lat": 15.8167,
+    "lon": 52.2,
+    "qibla_bearing": 297.44,
+    "id": 102
+  },
+  {
+    "governorate": "المهرة",
+    "district": "حات",
+    "place": "حات",
+    "lat": 16.9833,
+    "lon": 51.95,
+    "qibla_bearing": 293.12,
+    "id": 103
+  },
+  {
+    "governorate": "المهرة",
+    "district": "حصوين",
+    "place": "حصوين",
+    "lat": 15.6833,
+    "lon": 51.6833,
+    "qibla_bearing": 298.85,
+    "id": 104
+  },
+  {
+    "governorate": "المهرة",
+    "district": "حوف",
+    "place": "حوف",
+    "lat": 16.6333,
+    "lon": 53.0833,
+    "qibla_bearing": 292.99,
+    "id": 105
+  },
+  {
+    "governorate": "المهرة",
+    "district": "سيحوت",
+    "place": "سيحوت",
+    "lat": 15.4167,
+    "lon": 51.25,
+    "qibla_bearing": 300.71,
+    "id": 106
+  },
+  {
+    "governorate": "المهرة",
+    "district": "شحن",
+    "place": "شحن",
+    "lat": 17.4,
+    "lon": 52.65,
+    "qibla_bearing": 290.46,
+    "id": 107
+  },
+  {
+    "governorate": "المهرة",
+    "district": "قشن",
+    "place": "قشن",
+    "lat": 15.4333,
+    "lon": 51.6833,
+    "qibla_bearing": 299.82,
+    "id": 108
+  },
+  {
+    "governorate": "المهرة",
+    "district": "منعر",
+    "place": "منعر",
+    "lat": 16.95,
+    "lon": 52.1,
+    "qibla_bearing": 293.04,
+    "id": 109
+  },
+  {
+    "governorate": "مأرب",
+    "district": "مدينة مأرب",
+    "place": "مدينة مأرب",
+    "lat": 15.4627,
+    "lon": 45.3258,
+    "qibla_bearing": 319.64,
+    "id": 110
+  },
+  {
+    "governorate": "مأرب",
+    "district": "مأرب",
+    "place": "صافر",
+    "lat": 15.628,
+    "lon": 45.991,
+    "qibla_bearing": 315.69,
+    "id": 111
+  },
+  {
+    "governorate": "مأرب",
+    "district": "بدبدة",
+    "place": "بدبدة",
+    "lat": 15.103,
+    "lon": 45.463,
+    "qibla_bearing": 320.58,
+    "id": 112
+  },
+  {
+    "governorate": "مأرب",
+    "district": "حريب القراميش",
+    "place": "الأعبل",
+    "lat": 15.81,
+    "lon": 45.82,
+    "qibla_bearing": 315.58,
+    "id": 113
+  },
+  {
+    "governorate": "مأرب",
+    "district": "صرواح",
+    "place": "صرواح",
+    "lat": 15.456,
+    "lon": 44.79,
+    "qibla_bearing": 322.47,
+    "id": 114
+  },
+  {
+    "governorate": "مأرب",
+    "district": "مدغل",
+    "place": "مدغل",
+    "lat": 15.68,
+    "lon": 45.52,
+    "qibla_bearing": 317.64,
+    "id": 115
+  },
+  {
+    "governorate": "مأرب",
+    "district": "مجزر",
+    "place": "المفرق",
+    "lat": 16.05,
+    "lon": 45.62,
+    "qibla_bearing": 315.29,
+    "id": 116
+  },
+  {
+    "governorate": "مأرب",
+    "district": "رغوان",
+    "place": "رغوان",
+    "lat": 15.9,
+    "lon": 45.47,
+    "qibla_bearing": 316.79,
+    "id": 117
+  },
+  {
+    "governorate": "مأرب",
+    "district": "الجوبة",
+    "place": "الجديدة",
+    "lat": 15.07,
+    "lon": 45.3,
+    "qibla_bearing": 321.53,
+    "id": 118
+  },
+  {
+    "governorate": "مأرب",
+    "district": "رحبة",
+    "place": "كولة رحبة",
+    "lat": 14.9,
+    "lon": 45.3,
+    "qibla_bearing": 322.25,
+    "id": 119
+  },
+  {
+    "governorate": "مأرب",
+    "district": "حريب",
+    "place": "حريب",
+    "lat": 14.93,
+    "lon": 45.37,
+    "qibla_bearing": 321.78,
+    "id": 120
+  },
+  {
+    "governorate": "مأرب",
+    "district": "ماهلية",
+    "place": "العمود",
+    "lat": 14.73,
+    "lon": 45.47,
+    "qibla_bearing": 322.12,
+    "id": 121
+  },
+  {
+    "governorate": "مأرب",
+    "district": "العبدية",
+    "place": "آل العبد",
+    "lat": 14.68,
+    "lon": 45.26,
+    "qibla_bearing": 323.35,
+    "id": 122
+  },
+  {
+    "governorate": "مأرب",
+    "district": "جبل مراد",
+    "place": "الجريبة",
+    "lat": 14.98,
+    "lon": 45.02,
+    "qibla_bearing": 323.33,
+    "id": 123
+  },
+  {
+    "governorate": "سقطرى",
+    "district": "حديبو",
+    "place": "حديبو",
+    "lat": 12.6481,
+    "lon": 54.0186,
+    "qibla_bearing": 304.82,
+    "id": 124
+  },
+  {
+    "governorate": "سقطرى",
+    "district": "حديبو",
+    "place": "ديكسم",
+    "lat": 12.5,
+    "lon": 53.9,
+    "qibla_bearing": 305.45,
+    "id": 125
+  },
+  {
+    "governorate": "سقطرى",
+    "district": "حديبو",
+    "place": "قلنسية",
+    "lat": 12.689,
+    "lon": 53.487,
+    "qibla_bearing": 305.64,
+    "id": 126
+  },
+  {
+    "governorate": "سقطرى",
+    "district": "حديبو",
+    "place": "مومي",
+    "lat": 12.577,
+    "lon": 54.308,
+    "qibla_bearing": 304.54,
+    "id": 127
+  },
+  {
+    "governorate": "سقطرى",
+    "district": "قلنسية وعبد الكوري",
+    "place": "قلنسية",
+    "lat": 12.689,
+    "lon": 53.487,
+    "qibla_bearing": 305.64,
+    "id": 128
+  },
+  {
+    "governorate": "سقطرى",
+    "district": "قلنسية وعبد الكوري",
+    "place": "عبد الكوري",
+    "lat": 12.185,
+    "lon": 52.215,
+    "qibla_bearing": 309.58,
+    "id": 129
+  },
+  {
+    "governorate": "صنعاء",
+    "district": "سنحان وبني بهلول",
+    "place": "سنحان",
+    "lat": 15.17,
+    "lon": 44.21,
+    "qibla_bearing": 327.01,
+    "id": 130
+  },
+  {
+    "governorate": "صنعاء",
+    "district": "بني مطر",
+    "place": "متنة",
+    "lat": 15.28,
+    "lon": 43.98,
+    "qibla_bearing": 327.94,
+    "id": 131
+  },
+  {
+    "governorate": "صنعاء",
+    "district": "بلاد الروس",
+    "place": "بلاد الروس",
+    "lat": 15.05,
+    "lon": 44.32,
+    "qibla_bearing": 326.86,
+    "id": 132
+  },
+  {
+    "governorate": "صنعاء",
+    "district": "بني حشيش",
+    "place": "صرف",
+    "lat": 15.43,
+    "lon": 44.33,
+    "qibla_bearing": 325.2,
+    "id": 133
+  },
+  {
+    "governorate": "صنعاء",
+    "district": "الحصن",
+    "place": "الحصن",
+    "lat": 15.07,
+    "lon": 44.15,
+    "qibla_bearing": 327.77,
+    "id": 134
+  },
+  {
+    "governorate": "صنعاء",
+    "district": "همدان",
+    "place": "شملان",
+    "lat": 15.42,
+    "lon": 44.15,
+    "qibla_bearing": 326.31,
+    "id": 135
+  },
+  {
+    "governorate": "صنعاء",
+    "district": "أرحب",
+    "place": "بيت مران",
+    "lat": 15.53,
+    "lon": 44.33,
+    "qibla_bearing": 324.75,
+    "id": 136
+  },
+  {
+    "governorate": "صنعاء",
+    "district": "نهم",
+    "place": "الفرضة",
+    "lat": 15.61,
+    "lon": 44.78,
+    "qibla_bearing": 321.82,
+    "id": 137
+  },
+  {
+    "governorate": "صنعاء",
+    "district": "بني ضبيان",
+    "place": "القاع",
+    "lat": 15.17,
+    "lon": 44.5,
+    "qibla_bearing": 325.34,
+    "id": 138
+  },
+  {
+    "governorate": "صنعاء",
+    "district": "جحانة",
+    "place": "جحانة",
+    "lat": 15.21,
+    "lon": 44.52,
+    "qibla_bearing": 325.06,
+    "id": 139
+  },
+  {
+    "governorate": "صنعاء",
+    "district": "الطيال",
+    "place": "سوق الخميس",
+    "lat": 15.26,
+    "lon": 44.42,
+    "qibla_bearing": 325.41,
+    "id": 140
+  },
+  {
+    "governorate": "صنعاء",
+    "district": "خولان",
+    "place": "سوق خولان",
+    "lat": 15.22,
+    "lon": 44.65,
+    "qibla_bearing": 324.29,
+    "id": 141
+  },
+  {
+    "governorate": "صنعاء",
+    "district": "بني دامغ",
+    "place": "بني دامغ",
+    "lat": 15.38,
+    "lon": 44.61,
+    "qibla_bearing": 323.81,
+    "id": 142
+  },
+  {
+    "governorate": "صنعاء",
+    "district": "الحيمة الداخلية",
+    "place": "ظلمات",
+    "lat": 15.25,
+    "lon": 43.72,
+    "qibla_bearing": 329.68,
+    "id": 143
+  },
+  {
+    "governorate": "صنعاء",
+    "district": "الحيمة الخارجية",
+    "place": "منخة",
+    "lat": 15.3,
+    "lon": 43.62,
+    "qibla_bearing": 330.12,
+    "id": 144
+  },
+  {
+    "governorate": "صنعاء",
+    "district": "مناخة",
+    "place": "مناخة",
+    "lat": 15.07,
+    "lon": 43.72,
+    "qibla_bearing": 330.38,
+    "id": 145
+  },
+  {
+    "governorate": "الجوف",
+    "district": "الحزم",
+    "place": "الحزم",
+    "lat": 16.0108,
+    "lon": 44.7769,
+    "qibla_bearing": 319.86,
+    "id": 146
+  },
+  {
+    "governorate": "الجوف",
+    "district": "الحزم",
+    "place": "اليتمة",
+    "lat": 16.237,
+    "lon": 45.181,
+    "qibla_bearing": 316.49,
+    "id": 147
+  },
+  {
+    "governorate": "الجوف",
+    "district": "خب والشعف",
+    "place": "اليتمة",
+    "lat": 16.237,
+    "lon": 45.181,
+    "qibla_bearing": 316.49,
+    "id": 148
+  },
+  {
+    "governorate": "الجوف",
+    "district": "برط العنان",
+    "place": "العنان",
+    "lat": 16.721,
+    "lon": 44.898,
+    "qibla_bearing": 315.25,
+    "id": 149
+  },
+  {
+    "governorate": "الجوف",
+    "district": "الغيل",
+    "place": "الغيل",
+    "lat": 15.683,
+    "lon": 45.335,
+    "qibla_bearing": 318.54,
+    "id": 150
+  },
+  {
+    "governorate": "الجوف",
+    "district": "المتون",
+    "place": "المتون",
+    "lat": 15.905,
+    "lon": 44.865,
+    "qibla_bearing": 319.91,
+    "id": 151
+  },
+  {
+    "governorate": "الجوف",
+    "district": "المصلوب",
+    "place": "المصلوب",
+    "lat": 16.02,
+    "lon": 44.25,
+    "qibla_bearing": 322.89,
+    "id": 152
+  },
+  {
+    "governorate": "الجوف",
+    "district": "الحميدات",
+    "place": "الحميدات",
+    "lat": 16.18,
+    "lon": 44.62,
+    "qibla_bearing": 319.87,
+    "id": 153
+  },
+  {
+    "governorate": "الجوف",
+    "district": "المطمة",
+    "place": "المطمة",
+    "lat": 16.25,
+    "lon": 44.53,
+    "qibla_bearing": 320.02,
+    "id": 154
+  },
+  {
+    "governorate": "الجوف",
+    "district": "الخلق",
+    "place": "الخلق",
+    "lat": 16.12,
+    "lon": 44.96,
+    "qibla_bearing": 318.29,
+    "id": 155
+  },
+  {
+    "governorate": "الجوف",
+    "district": "رجوزة",
+    "place": "رجوزة",
+    "lat": 16.42,
+    "lon": 45.06,
+    "qibla_bearing": 316.12,
+    "id": 156
+  },
+  {
+    "governorate": "الجوف",
+    "district": "الزاهر",
+    "place": "الزاهر",
+    "lat": 15.85,
+    "lon": 44.69,
+    "qibla_bearing": 321.16,
+    "id": 157
+  },
+  {
+    "governorate": "الجوف",
+    "district": "خراب المراشي",
+    "place": "خراب المراشي",
+    "lat": 16.31,
+    "lon": 44.42,
+    "qibla_bearing": 320.35,
+    "id": 158
+  },
+  {
+    "governorate": "البيضاء",
+    "district": "مدينة البيضاء",
+    "place": "مدينة البيضاء",
+    "lat": 13.9858,
+    "lon": 45.5722,
+    "qibla_bearing": 324.48,
+    "id": 159
+  },
+  {
+    "governorate": "البيضاء",
+    "district": "البيضاء",
+    "place": "البيضاء",
+    "lat": 13.9858,
+    "lon": 45.5722,
+    "qibla_bearing": 324.48,
+    "id": 160
+  },
+  {
+    "governorate": "البيضاء",
+    "district": "رداع",
+    "place": "رداع",
+    "lat": 14.4189,
+    "lon": 44.8378,
+    "qibla_bearing": 326.49,
+    "id": 161
+  },
+  {
+    "governorate": "البيضاء",
+    "district": "ولد ربيع",
+    "place": "الحد",
+    "lat": 14.07,
+    "lon": 45.28,
+    "qibla_bearing": 325.55,
+    "id": 162
+  },
+  {
+    "governorate": "البيضاء",
+    "district": "العرش",
+    "place": "قانية",
+    "lat": 14.02,
+    "lon": 45.01,
+    "qibla_bearing": 327.05,
+    "id": 163
+  },
+  {
+    "governorate": "البيضاء",
+    "district": "الطفة",
+    "place": "الطفة",
+    "lat": 14.17,
+    "lon": 45.27,
+    "qibla_bearing": 325.24,
+    "id": 164
+  },
+  {
+    "governorate": "البيضاء",
+    "district": "الزاهر",
+    "place": "الزاهر",
+    "lat": 13.96,
+    "lon": 44.94,
+    "qibla_bearing": 327.6,
+    "id": 165
+  },
+  {
+    "governorate": "البيضاء",
+    "district": "الصومعة",
+    "place": "الصومعة",
+    "lat": 14.12,
+    "lon": 45.78,
+    "qibla_bearing": 323.04,
+    "id": 166
+  },
+  {
+    "governorate": "البيضاء",
+    "district": "مكيراس",
+    "place": "مكيراس",
+    "lat": 13.9667,
+    "lon": 45.7333,
+    "qibla_bearing": 323.81,
+    "id": 167
+  },
+  {
+    "governorate": "البيضاء",
+    "district": "ذي ناعم",
+    "place": "ذي ناعم",
+    "lat": 14.04,
+    "lon": 45.45,
+    "qibla_bearing": 324.85,
+    "id": 168
+  },
+  {
+    "governorate": "البيضاء",
+    "district": "ناطع",
+    "place": "ناطع",
+    "lat": 14.22,
+    "lon": 45.18,
+    "qibla_bearing": 325.5,
+    "id": 169
+  },
+  {
+    "governorate": "البيضاء",
+    "district": "نعمان",
+    "place": "نعمان",
+    "lat": 14.33,
+    "lon": 45.53,
+    "qibla_bearing": 323.41,
+    "id": 170
+  },
+  {
+    "governorate": "البيضاء",
+    "district": "مسورة",
+    "place": "مسورة",
+    "lat": 14.14,
+    "lon": 45.67,
+    "qibla_bearing": 323.47,
+    "id": 171
+  },
+  {
+    "governorate": "البيضاء",
+    "district": "السوادية",
+    "place": "السوادية",
+    "lat": 14.25,
+    "lon": 45.42,
+    "qibla_bearing": 324.23,
+    "id": 172
+  },
+  {
+    "governorate": "البيضاء",
+    "district": "الرياشية",
+    "place": "الرياشية",
+    "lat": 14.28,
+    "lon": 44.98,
+    "qibla_bearing": 326.27,
+    "id": 173
+  },
+  {
+    "governorate": "البيضاء",
+    "district": "الصلاط",
+    "place": "الصلاط",
+    "lat": 14.08,
+    "lon": 45.12,
+    "qibla_bearing": 326.3,
+    "id": 174
+  },
+  {
+    "governorate": "البيضاء",
+    "district": "الشرية",
+    "place": "الشرية",
+    "lat": 14.12,
+    "lon": 45.03,
+    "qibla_bearing": 326.6,
+    "id": 175
+  },
+  {
+    "governorate": "البيضاء",
+    "district": "الرياشية",
+    "place": "ذي سفال",
+    "lat": 14.26,
+    "lon": 44.95,
+    "qibla_bearing": 326.5,
+    "id": 176
+  },
+  {
+    "governorate": "البيضاء",
+    "district": "ردمان",
+    "place": "ردمان",
+    "lat": 14.3,
+    "lon": 45.33,
+    "qibla_bearing": 324.47,
+    "id": 177
+  },
+  {
+    "governorate": "البيضاء",
+    "district": "القريشية",
+    "place": "يكلا",
+    "lat": 14.08,
+    "lon": 45.18,
+    "qibla_bearing": 326.0,
+    "id": 178
+  }
+]

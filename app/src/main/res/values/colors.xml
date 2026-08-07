@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="deep_green">#1B3A2F</color>
+    <color name="mid_green">#20463A</color>
+    <color name="light_green">#2E5C4B</color>
+    <color name="gold">#D4AF37</color>
+    <color name="gold_light">#F0D98C</color>
+    <color name="cream">#F7F1DE</color>
+    <color name="ivory">#FBF7EC</color>
+    <color name="accent_red">#B23A2F</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

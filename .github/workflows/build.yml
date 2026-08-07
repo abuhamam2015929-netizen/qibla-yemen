@@ -1,0 +1,40 @@
+name: بناء تطبيق قبلة اليمن (APK)
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout الكود
+        uses: actions/checkout@v4
+
+      - name: تثبيت Java 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: تثبيت Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: تجهيز Gradle 8.7
+        uses: gradle/actions/setup-gradle@v3
+        with:
+          gradle-version: '8.7'
+
+      - name: كتابة local.properties
+        run: echo "sdk.dir=$ANDROID_HOME" > local.properties
+
+      - name: بناء نسخة Debug APK (قابلة للتثبيت المباشر - موقّعة تلقائياً بمفتاح Debug)
+        run: gradle assembleDebug --no-daemon --stacktrace
+
+      - name: رفع Debug APK كمخرجات (Artifact)
+        uses: actions/upload-artifact@v4
+        with:
+          name: قبلة-اليمن-debug
+          path: app/build/outputs/apk/debug/*.apk

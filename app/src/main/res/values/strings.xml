@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">قبلة اليمن</string>
+    <string name="tagline">دليلك نحو الكعبة</string>
+
+    <string name="mode_gps">تحديد تلقائي (GPS)</string>
+    <string name="mode_manual">تحديد يدوي</string>
+
+    <string name="searching_location">جاري تحديد موقعك…</string>
+    <string name="gps_unavailable_title">تعذّر تحديد الموقع تلقائياً</string>
+    <string name="gps_unavailable_desc">لا يتوفر GPS أو إشارة كافية الآن. اختر محافظتك ومديريتك يدوياً للحصول على اتجاه القبلة بدقة.</string>
+    <string name="choose_manually">الاختيار اليدوي</string>
+    <string name="retry_gps">إعادة محاولة GPS</string>
+
+    <string name="select_governorate">اختر المحافظة</string>
+    <string name="select_district">اختر المديرية</string>
+    <string name="confirm_location">تأكيد الموقع</string>
+    <string name="cancel">إلغاء</string>
+
+    <string name="qibla_direction">اتجاه القبلة</string>
+    <string name="degrees_from_north">من الشمال</string>
+    <string name="current_location">الموقع الحالي</string>
+    <string name="accuracy_note">دقة التحديد</string>
+    <string name="calibrate_compass">حرّك جهازك على شكل ٨ لمعايرة البوصلة</string>
+    <string name="using_gps">تم التحديد عبر GPS</string>
+    <string name="using_manual">تم التحديد يدوياً</string>
+    <string name="change_location">تغيير الموقع</string>
+    <string name="permission_needed">التطبيق يحتاج إذن الموقع لتحديد اتجاه القبلة تلقائياً</string>
+    <string name="grant_permission">منح الإذن</string>
+    <string name="latitude_label">خط العرض</string>
+    <string name="longitude_label">خط الطول</string>
+</resources>
