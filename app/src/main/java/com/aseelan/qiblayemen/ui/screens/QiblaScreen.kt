@@ -183,6 +183,11 @@ private fun ReadyContent(
             color = DeepGreen.copy(alpha = 0.6f),
             fontSize = 13.sp
         )
+        Text(
+            text = "اتجاه هاتفك الآن: ${state.compassAzimuth.roundToInt()}°",
+            color = DeepGreen.copy(alpha = 0.45f),
+            fontSize = 12.sp
+        )
 
         Spacer(Modifier.height(18.dp))
 
